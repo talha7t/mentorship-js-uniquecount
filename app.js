@@ -13,12 +13,8 @@ uniqueElements.forEach(element => {
 })
 
 
-// funcction to count number of tims an element appears in an array
+// function to count number of times an element appears in an array
 function countInArray(array, what) {
     let elementCount =  array.filter(item => item === what).length;
     console.log(`number of times ${what} appeared = ${elementCount}`)
 }
-
-
-
-
